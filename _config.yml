@@ -21,8 +21,7 @@ github_username:  jekyll
 markdown: kramdown
 
 collections:
-  artifacts:
-    output: true
+  - artifacts 
 
 webrick:
   headers:
