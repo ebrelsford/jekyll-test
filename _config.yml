@@ -19,3 +19,28 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+collections:
+  artifacts:
+    output: true
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Request-Method: "GET"
+
+prose:
+  metadata:
+    _artifacts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "image_url"
+        field:
+          element: "text"
+          label: "Image URL"
+      - name: "video_url"
+        field:
+          element: "text"
+          label: "Video URL"
